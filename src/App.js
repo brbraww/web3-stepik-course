@@ -1,26 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const handleAuthOnClick = () => {
+        const authData = {data: 'Auth on my site'}
+        const WavesKeeper = window.WavesKeeper
+        if (WavesKeeper) {
+            WavesKeeper.auth(authData).then(auth => {
+                console.log(auth)
+            }).catch(error => {
+                console.error(error)
+            })
+        } else {
+            alert('To Auth WavesKeeper should be installed.')
+        }
+    }
+    return (
+        <div className="App">
+            <h1 className='mt-5'>
+                WAVES
+            </h1>
+            <p>Simple React.js app</p>
+            <button className='btn btn-outline-primary' onClick={() => {alert('Alert')}}>Alert</button>
+            <button className='btn btn-primary' onClick={handleAuthOnClick}>Auth</button>
+        </div>
+    );
 }
 
 export default App;
