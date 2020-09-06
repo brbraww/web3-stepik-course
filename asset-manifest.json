@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/web3-stepik-course/static/css/main.5f361e03.chunk.css",
+    "main.js": "/web3-stepik-course/static/js/main.8128a51b.chunk.js",
+    "main.js.map": "/web3-stepik-course/static/js/main.8128a51b.chunk.js.map",
+    "runtime-main.js": "/web3-stepik-course/static/js/runtime-main.07bc3d7b.js",
+    "runtime-main.js.map": "/web3-stepik-course/static/js/runtime-main.07bc3d7b.js.map",
+    "static/js/2.55d20a23.chunk.js": "/web3-stepik-course/static/js/2.55d20a23.chunk.js",
+    "static/js/2.55d20a23.chunk.js.map": "/web3-stepik-course/static/js/2.55d20a23.chunk.js.map",
+    "index.html": "/web3-stepik-course/index.html",
+    "precache-manifest.2b7ec75f003f1d7d9310e31c72e9c735.js": "/web3-stepik-course/precache-manifest.2b7ec75f003f1d7d9310e31c72e9c735.js",
+    "service-worker.js": "/web3-stepik-course/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/web3-stepik-course/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.55d20a23.chunk.js.LICENSE.txt": "/web3-stepik-course/static/js/2.55d20a23.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.07bc3d7b.js",
+    "static/js/2.55d20a23.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.8128a51b.chunk.js"
+  ]
+}
